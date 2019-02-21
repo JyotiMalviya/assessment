@@ -3,7 +3,7 @@ const router = express.Router();
 const commentsService = require('../service/comments.service');
 
 
-
+//routings
 router.use(require('../config/tokenChecker'));
 router.post('/postComment/:blogid', commentsService.postComment);
 router.get('/getAllComments/:blogid', commentsService.getAllComments);
