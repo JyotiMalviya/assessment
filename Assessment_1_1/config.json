@@ -1,0 +1,8 @@
+{
+    "connectionString" : "mongodb://localhost:27017/blog_assessmenttt",
+    "secret" : "aJkyaOsThi26",
+    "refreshTokenSecret" : "UldhsyT",
+    "port" : 3000,
+    "tokenLife" : 900,
+    "refreshTokenLife" : 86400
+}
